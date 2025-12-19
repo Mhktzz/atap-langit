@@ -1,0 +1,327 @@
+.location {
+  padding: 5rem 0;
+  background-color: var(--color-gray-900);
+  color: var(--color-white);
+}
+
+.location-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.location-badge {
+  display: inline-block;
+  background-color: rgba(255, 0, 0, 0.2);
+  color: var(--color-red);
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  margin-bottom: 1rem;
+}
+
+.location-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.location-title-accent {
+  color: var(--color-red);
+}
+
+.location-subtitle {
+  font-size: 1.25rem;
+  color: var(--color-gray-400);
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.location-grid {
+  display: grid;
+  gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+.location-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.location-contact-card {
+  background-color: var(--color-gray-800);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  transition: background-color 0.3s;
+}
+
+.location-contact-card:hover {
+  background-color: #1a202c;
+}
+
+.location-contact-card:first-child,
+.location-contact-card:nth-child(2),
+.location-contact-card:nth-child(3) {
+  display: flex;
+  gap: 1rem;
+}
+
+.location-contact-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.location-contact-icon svg {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.location-contact-icon-red {
+  background-color: var(--color-red);
+}
+
+.location-contact-icon-yellow {
+  background-color: var(--color-yellow);
+  color: var(--color-gray-900);
+}
+
+.location-contact-icon-green {
+  background-color: var(--color-green);
+}
+
+.location-contact-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.location-contact-text {
+  color: var(--color-gray-400);
+  line-height: 1.75;
+}
+
+.location-contact-phone {
+  margin-bottom: 0.5rem;
+}
+
+.location-contact-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--color-red);
+  margin-top: 0.75rem;
+  transition: color 0.3s;
+}
+
+.location-contact-link:hover {
+  color: #CC0000;
+}
+
+.location-contact-link-green {
+  color: var(--color-green);
+}
+
+.location-contact-link-green:hover {
+  color: #2a8024;
+}
+
+.location-contact-link span:first-child {
+  margin-right: 0.5rem;
+}
+
+.location-contact-hours {
+  color: var(--color-gray-400);
+}
+
+.location-contact-hours-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.location-contact-hours-time {
+  color: var(--color-yellow);
+}
+
+.location-contact-hours-note {
+  font-size: 0.875rem;
+  color: var(--color-gray-500);
+}
+
+.location-social {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.location-social-link {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s;
+}
+
+.location-social-link:hover {
+  transform: scale(1.1);
+}
+
+.location-social-link svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.location-social-instagram {
+  background: linear-gradient(135deg, #833ab4 0%, #fd1d1d 50%, #fcb045 100%);
+}
+
+.location-social-facebook {
+  background-color: var(--color-blue);
+}
+
+.location-social-mail {
+  background-color: var(--color-red);
+}
+
+.location-social-handle {
+  color: var(--color-gray-400);
+  font-size: 0.875rem;
+}
+
+.location-map {
+  background-color: var(--color-gray-800);
+  border-radius: 1rem;
+  overflow: hidden;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-map-placeholder {
+  text-align: center;
+  padding: 2rem;
+}
+
+.location-map-icon {
+  width: 6rem;
+  height: 6rem;
+  background-color: rgba(0, 162, 233, 0.2);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.location-map-icon svg {
+  width: 3rem;
+  height: 3rem;
+  color: var(--color-blue);
+}
+
+.location-map-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.location-map-text {
+  color: var(--color-gray-400);
+  margin-bottom: 1.5rem;
+}
+
+.location-map-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--color-red);
+  color: var(--color-white);
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  transition: background-color 0.3s;
+}
+
+.location-map-btn:hover {
+  background-color: #CC0000;
+}
+
+.location-cta {
+  background: linear-gradient(135deg, var(--color-red) 0%, #FF4444 100%);
+  border-radius: 1.5rem;
+  padding: 3rem;
+  text-align: center;
+}
+
+.location-cta-title {
+  font-size: 1.875rem;
+  margin-bottom: 1rem;
+}
+
+.location-cta-text {
+  font-size: 1.25rem;
+  opacity: 0.9;
+  max-width: 32rem;
+  margin: 0 auto 2rem;
+}
+
+.location-cta-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  border-radius: 9999px;
+  transition: all 0.3s;
+}
+
+.location-cta-btn-primary {
+  background-color: var(--color-white);
+  color: var(--color-red);
+}
+
+.location-cta-btn-primary:hover {
+  background-color: var(--color-gray-100);
+}
+
+.location-cta-btn-secondary {
+  background-color: var(--color-gray-900);
+  color: var(--color-white);
+}
+
+.location-cta-btn-secondary:hover {
+  background-color: var(--color-gray-800);
+}
+
+/* Tablet & Desktop */
+@media (min-width: 768px) {
+  .location-title {
+    font-size: 3rem;
+  }
+
+  .location-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .location-cta-title {
+    font-size: 2.25rem;
+  }
+
+  .location-cta-buttons {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .location-title {
+    font-size: 3.75rem;
+  }
+}

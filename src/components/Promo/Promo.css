@@ -1,0 +1,251 @@
+.promo {
+  padding: 5rem 0;
+  background: linear-gradient(135deg, var(--color-red) 0%, #FF4444 100%);
+  color: var(--color-white);
+  position: relative;
+  overflow: hidden;
+}
+
+.promo-decoration {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.promo-decoration-1 {
+  top: 0;
+  right: 0;
+  width: 24rem;
+  height: 24rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translate(50%, -50%);
+}
+
+.promo-decoration-2 {
+  bottom: 0;
+  left: 0;
+  width: 20rem;
+  height: 20rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translate(-50%, 50%);
+}
+
+.promo-container {
+  position: relative;
+  z-index: 10;
+}
+
+.promo-grid {
+  display: grid;
+  gap: 3rem;
+  align-items: center;
+}
+
+.promo-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  margin-bottom: 1.5rem;
+}
+
+.promo-badge-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.promo-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.promo-description {
+  font-size: 1.25rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+}
+
+.promo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.promo-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.promo-item-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.promo-item-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.promo-item-text {
+  opacity: 0.8;
+  font-size: 0.875rem;
+}
+
+.promo-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--color-white);
+  color: var(--color-red);
+  padding: 1rem 2rem;
+  border-radius: 9999px;
+  transition: all 0.3s;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+}
+
+.promo-btn:hover {
+  background-color: var(--color-gray-100);
+  transform: scale(1.05);
+}
+
+.promo-btn span:first-child {
+  margin-right: 0.5rem;
+}
+
+.promo-card-wrapper {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.promo-card-main {
+  background-color: var(--color-white);
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  color: var(--color-gray-900);
+  margin-bottom: 1.5rem;
+}
+
+.promo-card-icon {
+  width: 6rem;
+  height: 6rem;
+  background-color: var(--color-yellow);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.promo-card-icon svg {
+  width: 3rem;
+  height: 3rem;
+  color: var(--color-gray-900);
+}
+
+.promo-card-title {
+  font-size: 1.875rem;
+  margin-bottom: 1rem;
+}
+
+.promo-card-text {
+  color: var(--color-gray-600);
+  margin-bottom: 1.5rem;
+}
+
+.promo-card-discount {
+  background-color: #FEF2F2;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+}
+
+.promo-card-discount-label {
+  font-size: 0.875rem;
+  color: var(--color-gray-600);
+  margin-bottom: 0.5rem;
+}
+
+.promo-card-discount-value {
+  font-size: 3rem;
+  color: var(--color-red);
+  margin-bottom: 0.5rem;
+}
+
+.promo-card-discount-info {
+  font-size: 0.875rem;
+  color: var(--color-gray-600);
+}
+
+.promo-card-benefits {
+  background-color: var(--color-white);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  color: var(--color-gray-900);
+}
+
+.promo-card-benefits-title {
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.promo-card-benefits-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.promo-card-benefit-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--color-gray-700);
+}
+
+.promo-card-benefit-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--color-green);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  font-size: 0.875rem;
+  flex-shrink: 0;
+}
+
+/* Tablet & Desktop */
+@media (min-width: 768px) {
+  .promo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .promo-title {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .promo-title {
+    font-size: 3.75rem;
+  }
+}
